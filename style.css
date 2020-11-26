@@ -1,0 +1,151 @@
+
+body
+        { 
+            margin: 0;
+            padding: 0;
+        
+        }
+.top
+{ 
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/bg.jpg);
+    height: 80%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+     
+}
+.nav{
+    padding:  auto;
+}
+
+header{
+
+}
+.menu
+{
+
+        float: right;
+    list-style-type: none;
+}
+
+.menu li
+{
+      display: inline-block;
+}
+.ele
+{
+    text-decoration: none;
+    color:white;
+    padding: 15px 50px;
+    border: 1px ;
+    transition: 1.5s  ease;
+    font-size: 19px;
+}
+
+.ele:hover
+{
+    background-color: white;
+    color: hsla(120, 60%, 70%,1
+    );
+}
+.by{ 
+ padding: 15PX 30PX;
+    text-align: center;
+    color: hsla(120, 60%, 70%,1
+    );
+    transition: 1.5s ease;
+    display: inline-block;
+    
+}
+.by:hover
+{
+color: aqua;
+     
+      background-color: white;
+}
+.by a:hover
+{
+color: hsla(120, 60%, 70%,1
+    )   ;
+     text-decoration: none;
+      
+}
+.para{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%,-50%)
+    
+}
+.para p {
+     
+    font-size: 22px;
+    opacity:80%;
+        color:white;
+
+}
+.title
+{
+    position: absolute;
+    top: 45%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{ 
+    font-size: 150px;
+        color:white;
+}
+
+
+.flex-container {
+  display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+}
+.flex-container >div
+{
+    display: inline-block;
+    width: 500px;
+  margin-top: 50px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-bottom: 50px;
+  text-align: center;
+     background-color: white;
+ 
+}
+
+.flex-container >div img
+{
+    width: 500px;
+    height: 250px;
+    
+}
+.learn
+{ 
+    text-align: center;
+         text-decoration: none;
+    color:#a6a6a6;
+    padding: 15px 50px;
+    border: 3px solid #a6a6a6 ;
+    transition: 1.5s  ease;
+    font-size: 19px;
+    
+    
+}
+.learn:hover
+{
+color: black;
+     
+      background-color: #a6a6a6;
+}
+
+.icons img
+{
+    margin: 15px auto;
+  
+    width:  40px;
+    height: 40px;
+   
+    
+}
